@@ -1,0 +1,9 @@
+my-website/
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── script.js
+│
+└── about.html

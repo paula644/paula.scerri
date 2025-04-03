@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+  background-color: #ffffcc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+h1:hover {
+  color: red;
+}
+
+/* Navigation Menu */
+.nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li {
+  margin: 5px 0;
+  display: inline;
+  margin-right: 15px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  color: #ff9933;
+}
+
+/* Image Styling */
+.portfolio-img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Paragraph Styling */
+p, ul {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
