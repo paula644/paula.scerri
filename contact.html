@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="contact-heading" class="heading">Contact Me</h1>
+
+      <nav>
+        <ul class="nav">
+          <li><a href="home screen.html">Home Page</a></li>
+          <li><a href="About me.html">About Me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <div class="form-container">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input id="name" type="text">
+          <span class="error" id="nameError"></span>
+
+          <label for="email">Email</label>
+          <input id="email" type="email">
+          <span class="error" id="emailError"></span>
+
+          <label for="phone">Contact Number</label>
+          <input id="phone" type="text" placeholder="+356 #### ####">
+          <span class="error" id="phoneError"></span>
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="4"></textarea>
+          <span class="error" id="messageError"></span>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <p>If you'd like to reach out, feel free to send me a message below or contact me via email or phone.</p>
+      <p><strong>Email:</strong> <a href="mailto:paula.scerri.i80254@mcast.edu.mt">paula.scerri.i80254@mcast.edu.mt</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+35679424842">+356 7942 4842</a></p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
